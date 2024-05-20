@@ -1,0 +1,201 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1000px;
+    background-color: rgb(230, 228, 228);
+}
+/*header*/
+
+header {
+    width: 94%;
+    background-color: #21272B;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 110px;
+    padding-bottom: 20px;
+    padding-top: 15px;
+}
+
+.opcoes ul {
+    padding-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    gap: 25px;
+    padding-right: 45px;
+}
+
+.opcoes li {
+    cursor: pointer;
+    border-right: 3px solid #ffffff;
+    padding-right: 20px;
+}
+
+.opcoes li:last-child {
+    border-right: none;
+}
+
+.opcoes li:hover {
+    color: #1BB4E8;
+}
+
+.titulo {
+    padding-left: 40px;
+    display: flex;
+}
+
+.titulo h1 {
+    font-size: 19px;
+    color: #1BB4E8;
+}
+
+.titulo h2 {
+    font-size: 18px;
+}
+
+.titulo_txt {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+/*main*/
+
+main {
+    width: 94%;
+    background-color: #ffffff;
+    padding-bottom: 50px;
+}
+
+.foto {
+    width: 100%;
+    background-image: url(Projeto-AluguelIates/imagens/barcoprincipal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+}
+
+.container {
+    background-color: #21272bec;
+    color: white;
+    width: 380px;
+    height: 250px;
+    position: relative;
+    left: 850px;
+    top: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 30px 0px 30px;
+    gap: 50px;
+    border-radius: 3px;
+}
+
+.paragrafo_container {
+    display: flex;
+    gap: 13px;
+}
+.paragrafo_container p {
+   font-size: 21px;
+}
+.titulo_container h2 {
+    font-size: 25px;
+}
+.paragrafo_container span {
+    color: rgb(193, 193, 93);
+}
+
+.segunda_parte {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+.destinos {
+    height: 520px;
+    width: 46%;
+    padding: 10px;
+}
+.destino_titulo {
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: #1BB4E8;
+    margin-bottom: 15px;
+}
+
+.nossa_frota {
+    height: 520px;
+    width: 46%;
+    padding: 10px;
+}
+
+.nossa_frota_titulo {
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: rgb(217, 186, 149);
+    height: 40px;
+    margin-bottom: 15px;
+}
+
+.destinos h3 {
+    padding-bottom: 20px;
+}
+
+.destinos p {
+    padding-bottom: 30px;
+}
+.barcodestino {
+    width: 637px;
+}
+.nossa_frota h3 {
+    padding-bottom: 20px;
+}
+
+.nossa_frota p {
+    padding-bottom: 30px;
+}
+
+.imagens_nossa_frota {
+    height: 316px;
+}
+.imagens_nossa_frota img {
+    width: 307px;
+    height: 148px;
+    padding: 5px;
+}
+
+/*footer*/
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 160px;
+    background-color: rgb(139, 135, 135);
+
+}
+
+.footer_contido {
+    height: 80px;
+    width: 94%;
+    background-color: rgb(230, 228, 228);
+    text-align: start;
+}
+.footer_contido p {
+    padding-top: 32px;
+    padding-left: 40px;
+}

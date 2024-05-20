@@ -1,0 +1,8 @@
+Cor do body: #EBEBEB
+Cor do topo: #21272B
+Cor do quadro sobre a imagem: #1A3243
+
+Cor do texto azul do menu: #1BB4E8
+Cor do texto branco do menu: #FFFFFF
+
+Cor do texto Marron do quadro sobre a imagem: #C6B07F
